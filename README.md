@@ -1,7 +1,16 @@
-Simple_Chai
-===========
+Linked List Class
+=================
 
-Simple example of using Grunt with Mocha and Chai to test objects. To run, first:
+An implementation of a linked list class in JavaScript. Uses the following format:
+
+````
+{ 
+  head: val,
+    tail: {
+      head: val,
+      tail: ..etc
+````
+To run:
 
 `npm install`
 
